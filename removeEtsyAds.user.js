@@ -35,7 +35,7 @@ liElements.forEach(li => {
   const spanElements = li.querySelectorAll('span');
 
   // Filter the <span> elements to find those containing "ad "
-  const filteredSpanElements = Array.from(spanElements).filter(span => span.textContent.includes('ad '));
+  const filteredSpanElements = Array.from(spanElements).filter(span => span.textContent.includes('by Etsy seller'));
 
   // Iterate over the filtered <span> elements
   filteredSpanElements.forEach(span => {
